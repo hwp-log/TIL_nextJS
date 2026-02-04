@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import styles from "@/app/page.module.css" // css module 사용. 최근은 tailwind + tw-merge +cva 조합도 사용
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,9 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className={styles.container}>
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   )

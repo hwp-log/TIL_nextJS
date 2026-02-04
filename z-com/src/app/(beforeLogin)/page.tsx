@@ -1,6 +1,6 @@
 import styles from '@/app/page.module.css';
 import Image from "next/image";
-import zLogo from "../../public/zlogo.png";
+import zLogo from "../../../public/zlogo.png"; // page.tsx의 파일이동에 따른 경로수정
 import Link from "next/link";
 
 // MainPage의 회원가입 & 로그인
