@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <main>
-      탐색
+      검색페이지
     </main>
   )
 }

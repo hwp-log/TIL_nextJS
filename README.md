@@ -12,3 +12,4 @@
 # commit_10 : page.tsx 모달팝업이 아닌 페이지이동 문제 해결(router.replace적용 & 공통컴포넌트 추가)
 # commit_11 : SignupModal의 css 경로 수정
 # commit_12 : Home화면 레이아웃 작성
+# commit_13 : ActiveLink 작성
