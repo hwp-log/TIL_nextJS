@@ -13,3 +13,4 @@
 # commit_11 : SignupModal의 css 경로 수정
 # commit_12 : Home화면 레이아웃 작성
 # commit_13 : ActiveLink 작성
+# commit_14 : 나를 위한 트렌드 세션 작성
