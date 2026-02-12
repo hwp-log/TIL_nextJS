@@ -1,3 +1,7 @@
+body {
+    color: black;
+}
+
 /* ===== 전체 컨테이너 ===== */
 .container {
     /* 좌측(header) + 우측(main) 가로 배치 */
@@ -5,7 +9,6 @@
     /* 자식 요소들 높이 맞춤 */
     align-items: stretch;
     background-color: #fff;
-    color: black;
     margin: 0 auto;
 }
 
@@ -24,7 +27,6 @@
     width: 275px;
     /* 동적 뷰포트 높이 (모바일 대응) */
     height: 100dvh;
-    background-color: orange;
 }
 
 .leftSectionFixed {
@@ -114,7 +116,6 @@
     /* 메인과 사이드바 양쪽 배치 */
     display: flex;
     justify-content: space-between;
-    background-color: cyan;
 }
 
 /* ===== 메인 콘텐츠 영역 ===== */
